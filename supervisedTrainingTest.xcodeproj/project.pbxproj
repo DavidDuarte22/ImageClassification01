@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6E348B252DFD33002A0FED /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E348A252DFD33002A0FED /* ImagePicker.swift */; };
+		DE6E3494252E2FF7002A0FED /* HealthySnacks.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE6E3493252E2FF7002A0FED /* HealthySnacks.mlmodel */; };
 		DE92370D252CEEF6001A2855 /* supervisedTrainingTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92370C252CEEF6001A2855 /* supervisedTrainingTestApp.swift */; };
 		DE92370F252CEEF6001A2855 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE92370E252CEEF6001A2855 /* ContentView.swift */; };
 		DE923711252CEEF9001A2855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE923710252CEEF9001A2855 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE6E348A252DFD33002A0FED /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DE6E3493252E2FF7002A0FED /* HealthySnacks.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HealthySnacks.mlmodel; sourceTree = "<group>"; };
 		DE923709252CEEF6001A2855 /* supervisedTrainingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supervisedTrainingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE92370C252CEEF6001A2855 /* supervisedTrainingTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supervisedTrainingTestApp.swift; sourceTree = "<group>"; };
 		DE92370E252CEEF6001A2855 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 			children = (
 				DE92370C252CEEF6001A2855 /* supervisedTrainingTestApp.swift */,
 				DE92370E252CEEF6001A2855 /* ContentView.swift */,
+				DE6E348A252DFD33002A0FED /* ImagePicker.swift */,
+				DE6E3493252E2FF7002A0FED /* HealthySnacks.mlmodel */,
 				DE923710252CEEF9001A2855 /* Assets.xcassets */,
 				DE923715252CEEF9001A2855 /* Info.plist */,
 				DE923712252CEEF9001A2855 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6E348B252DFD33002A0FED /* ImagePicker.swift in Sources */,
 				DE92370F252CEEF6001A2855 /* ContentView.swift in Sources */,
 				DE92370D252CEEF6001A2855 /* supervisedTrainingTestApp.swift in Sources */,
+				DE6E3494252E2FF7002A0FED /* HealthySnacks.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
