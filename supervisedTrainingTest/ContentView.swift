@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  supervisedTrainingTest
 //
-//  Created by itsupport on 06/10/2020.
+//  Created by David Duarte on 06/10/2020.
 //
 
 import SwiftUI
@@ -31,7 +31,7 @@ struct ContentView: View {
                     }) {
                         ButtonView(icon: "photo", title: "Photo library")
                         .sheet(isPresented: $isShowCamera) {
-                            ImagePicker(selectedImage: self.$image, sourceType: .camera)
+                            ImagePicker(result: self.$result, selectedImage: self.$image, sourceType: .camera)
                         }
                     }
                     Button(action: {
@@ -39,7 +39,7 @@ struct ContentView: View {
                     }) {
                         ButtonView(icon: "camera", title: "Camera")
                         .sheet(isPresented: $isShowPhotoLibrary) {
-                            ImagePicker(selectedImage: self.$image, sourceType: .photoLibrary)
+                            ImagePicker(result: self.$result, selectedImage: self.$image, sourceType: .photoLibrary)
                         }
                     }
                 }

@@ -2,7 +2,7 @@
 //  supervisedTrainingTestTests.swift
 //  supervisedTrainingTestTests
 //
-//  Created by itsupport on 06/10/2020.
+//  Created by David Duarte on 06/10/2020.
 //
 
 import XCTest
